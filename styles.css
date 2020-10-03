@@ -1,0 +1,84 @@
+/*
+I learnt to use flexbox from the following youtube videos.
+https://www.youtube.com/watch?v=FTlczfR82mQ&ab_channel=DevEd
+https://www.youtube.com/watch?v=JJSoEo8JSnc&list=WL&index=2&ab_channel=TraversyMedia
+*/
+
+header {
+	background-color: lightgray;
+	margin-bottom: 10px;
+}
+.menuitem {
+	text-decoration: none;
+	color: black;
+	padding: 20px;
+	font-size: 22px;
+}
+
+
+.menuitem:hover {
+	/*This code makes the menu item bigger and gives it a blue color*/
+	color: blue;
+	font-size: 26px;
+}
+.box1 {
+	display: flex;
+	justify-content: flex-start;
+	justify-content: space-between;
+	flex-direction: row;
+	align-items: flex-end;
+}
+.menu {
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+	list-style-type: none;
+}
+.box2 {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+
+}
+.box3 {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.box4 {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	align-items: flex-start;
+}
+
+article {
+	font-size: 20px;
+}
+.log {
+	text-decoration: none;
+	color: black;
+}
+.log:hover {
+	color: blue;
+}
+.imp-text {
+	color: 	rgb(0, 0, 204); 
+	/*
+	I got the color code from the following page in w3schools
+	https://www.w3schools.com/colors/colors_picker.asp
+	*/
+}
+.s-image {
+	/* This code is used for small images */
+	padding-right: 20px;
+	width: 140px;
+	height: 140px;
+}
+#note {
+	font-size: 12px;
+	color: red;
+}
